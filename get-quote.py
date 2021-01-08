@@ -1,9 +1,9 @@
 def main():
-  print("Keep it not logically awesome.")
+  #print("Keep it not logically awesome.")
 
-  #f = open("quotes.txt")
-  #quotes = f.readlines()
-  #f.close()
+  f = open("quotes.txt")
+  quotes = f.readlines()
+  f.close()
 
-  #print(quotes)
+  print(quotes)
 main()
